@@ -1,0 +1,43 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Golfers</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>This week</th>
+      <th>Name</th>
+      <th>Country</th>
+      <th>Average points</th>
+      <th>Total points</th>
+      <th>Events played</th>
+      <th>Points lost this year</th>
+      <th>Points gained this year</th>
+      <th>Events played</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @golfers.each do |golfer| %>
+      <tr>
+        <td><%= golfer.this_week %></td>
+        <td><%= golfer.name %></td>
+        <td><%= golfer.country %></td>
+        <td><%= golfer.average_points %></td>
+        <td><%= golfer.total_points %></td>
+        <td><%= golfer.events_played %></td>
+        <td><%= golfer.points_lost_this_year %></td>
+        <td><%= golfer.points_gained_this_year %></td>
+        <td><%= golfer.events_played %></td>
+        <td><%= link_to 'Show', golfer %></td>
+        <td><%= link_to 'Edit', edit_golfer_path(golfer) %></td>
+        <td><%= link_to 'Destroy', golfer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Golfer', new_golfer_path %>

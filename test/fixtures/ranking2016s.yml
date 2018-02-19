@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  this_week: 1
+  name: MyString
+  country: MyString
+  average_points: MyString
+  total_points: MyString
+  events_played: MyString
+  points_lost_this_year: MyString
+  points_gained_this_year: MyString
+  events_played: MyString
+
+two:
+  this_week: 1
+  name: MyString
+  country: MyString
+  average_points: MyString
+  total_points: MyString
+  events_played: MyString
+  points_lost_this_year: MyString
+  points_gained_this_year: MyString
+  events_played: MyString

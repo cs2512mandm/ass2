@@ -1,0 +1,62 @@
+<%= form_with(model: golfer, local: true) do |form| %>
+  <% if golfer.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(golfer.errors.count, "error") %> prohibited this golfer from being saved:</h2>
+
+      <ul>
+      <% golfer.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :this_week %>
+    <%= form.number_field :this_week, id: :golfer_this_week %>
+  </div>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :golfer_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :country %>
+    <%= form.text_field :country, id: :golfer_country %>
+  </div>
+
+  <div class="field">
+    <%= form.label :average_points %>
+    <%= form.text_field :average_points, id: :golfer_average_points %>
+  </div>
+
+  <div class="field">
+    <%= form.label :total_points %>
+    <%= form.text_field :total_points, id: :golfer_total_points %>
+  </div>
+
+  <div class="field">
+    <%= form.label :events_played %>
+    <%= form.text_field :events_played, id: :golfer_events_played %>
+  </div>
+
+  <div class="field">
+    <%= form.label :points_lost_this_year %>
+    <%= form.text_field :points_lost_this_year, id: :golfer_points_lost_this_year %>
+  </div>
+
+  <div class="field">
+    <%= form.label :points_gained_this_year %>
+    <%= form.text_field :points_gained_this_year, id: :golfer_points_gained_this_year %>
+  </div>
+
+  <div class="field">
+    <%= form.label :events_played %>
+    <%= form.text_field :events_played, id: :golfer_events_played %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

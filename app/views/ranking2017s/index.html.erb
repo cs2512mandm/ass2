@@ -1,0 +1,43 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Ranking2017s</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>This week</th>
+      <th>Name</th>
+      <th>Country</th>
+      <th>Average points</th>
+      <th>Total points</th>
+      <th>Events played</th>
+      <th>Points lost this year</th>
+      <th>Points gained this year</th>
+      <th>Events played</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @ranking2017s.each do |ranking2017| %>
+      <tr>
+        <td><%= ranking2017.this_week %></td>
+        <td><%= ranking2017.name %></td>
+        <td><%= ranking2017.country %></td>
+        <td><%= ranking2017.average_points %></td>
+        <td><%= ranking2017.total_points %></td>
+        <td><%= ranking2017.events_played %></td>
+        <td><%= ranking2017.points_lost_this_year %></td>
+        <td><%= ranking2017.points_gained_this_year %></td>
+        <td><%= ranking2017.events_played %></td>
+        <td><%= link_to 'Show', ranking2017 %></td>
+        <td><%= link_to 'Edit', edit_ranking2017_path(ranking2017) %></td>
+        <td><%= link_to 'Destroy', ranking2017, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Ranking2017', new_ranking2017_path %>

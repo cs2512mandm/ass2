@@ -1,0 +1,301 @@
+this_week,name,country,average_points,total_points,events_played,points_lost_this_year,points_gained_this_year,events_played
+1,Dustin Johnson,United States,10.409,468.405,45,-429.77,450.123,45
+2,Jordan Spieth,United States,9.2079,441.98,48,-418.672,450.429,48
+3,Justin Thomas,United States,8.3606,434.752,52,-219.055,446.428,52
+4,Jon Rahm,Spain,8.0543,322.17,40,-103.784,378.511,37
+5,Hideki Matsuyama,Japan,7.9197,388.064,49,-315.862,314.533,49
+6,Justin Rose,England,7.8379,352.705,45,-227.525,367.125,45
+7,Rickie Fowler,United States,6.7951,326.163,48,-273.284,346.097,48
+8,Brooks Koepka,United States,6.3286,297.443,47,-195.49,276.316,47
+9,Henrik Stenson,Sweden,5.9013,259.657,44,-327.557,178.597,44
+10,Sergio Garcia,Spain,5.6648,249.25,44,-216.335,261.999,44
+11,Rory McIlroy,N Ireland,5.6385,225.542,40,-332.917,145.448,40
+12,Marc Leishman,Australia,5.1163,266.046,52,-136.381,284.736,52
+13,Jason Day,Australia,5.0432,211.814,42,-374.115,149.348,42
+14,Paul Casey,England,4.8891,229.787,47,-193.987,188.778,47
+15,Matt Kuchar,United States,4.7382,246.387,52,-194.22,227.659,57
+16,Tyrrell Hatton,England,4.6308,231.542,50,-147.195,187.894,50
+17,Tommy Fleetwood,England,4.5526,236.734,52,-111.509,272.871,55
+18,Alex Noren,Sweden,4.5011,207.053,46,-159.392,152.346,46
+19,Pat Perez,United States,4.2706,170.823,40,-61.97,180.886,38
+20,Rafael Cabrera Bello,Spain,3.9638,206.12,52,-162.17,194.49,58
+21,Francesco Molinari,Italy,3.8448,192.24,50,-134.322,171.973,50
+22,Charley Hoffman,United States,3.7843,196.785,52,-119.491,213.288,57
+23,Louis Oosthuizen,South Africa,3.7476,164.896,44,-172.052,160.85,44
+24,Patrick Reed,United States,3.6943,192.105,52,-239.713,152.511,65
+25,Xander Schauffele,United States,3.4517,179.491,52,-28.564,183.449,56
+26,Kevin Kisner,United States,3.3464,174.015,52,-154.597,199.193,52
+27,Brian Harman,United States,3.3256,172.933,52,-87.12,199.513,58
+28,Daniel Berger,United States,3.1935,162.87,51,-147.527,146.61,51
+29,Matthew Fitzpatrick,England,3.163,164.476,52,-145.534,134.174,58
+30,Branden Grace,South Africa,3.097,161.043,52,-196.914,133.585,53
+31,Adam Scott,Australia,2.969,124.698,42,-232.589,75.742,42
+32,Ross Fisher,England,2.9522,141.705,48,-92.581,135.52,48
+33,Charl Schwartzel,South Africa,2.9055,136.56,47,-167.247,112.34,47
+34,Kevin Chappell,United States,2.8917,150.367,52,-144.514,129.516,52
+35,Yuta Ikeda,Japan,2.7096,140.899,52,-109.827,90.944,59
+36,Thomas Pieters,Belgium,2.6939,126.613,47,-128.484,126.12,47
+37,Phil Mickelson,United States,2.6644,125.226,47,-156.629,101.5,47
+38,Patrick Cantlay,United States,2.6131,104.522,40,-17.569,122.091,14
+39,Bernd Wiesberger,Austria,2.5938,134.879,52,-132.946,122.803,56
+40,Tony Finau,United States,2.5821,134.267,52,-90.376,140.728,57
+41,Jason Dufner,United States,2.5693,125.897,49,-106.362,132.44,49
+42,Siwoo Kim,Korea,2.5602,133.128,52,-109.486,120.608,64
+43,Webb Simpson,United States,2.518,123.381,49,-84.743,132.65,49
+44,Jhonattan Vegas,Venezuela,2.5002,130.013,52,-86.834,115.904,56
+45,Brendan Steele,United States,2.4871,116.896,47,-99.33,107.629,47
+46,Russell Henley,United States,2.4255,121.277,50,-78.13,137.393,50
+47,Zach Johnson,United States,2.3883,119.417,50,-141.547,116.478,50
+48,Kyle Stanley,United States,2.3582,122.629,52,-49.482,137.114,55
+49,Kiradech Aphibarnrat,Thailand,2.3457,121.979,52,-90.697,117.632,59
+50,Yusaku Miyazato,Japan,2.345,121.939,52,-58.446,121.234,62
+51,Satoshi Kodaira,Japan,2.3419,121.777,52,-57.18,105.349,54
+52,Peter Uihlein,United States,2.3333,102.667,44,-43.918,117.67,44
+53,Dylan Frittelli,South Africa,2.2987,119.532,52,-55.748,119.776,67
+54,Ian Poulter,England,2.2852,107.405,47,-58.653,121.888,47
+55,Gary Woodland,United States,2.2359,116.265,52,-113.749,99.84,53
+56,Bill Haas,United States,2.2227,113.356,51,-129.338,105.457,51
+57,Ryan Moore,United States,2.1513,101.113,47,-118.892,74.421,47
+58,Li Haotong,China,2.1448,107.238,50,-57.677,102.626,50
+59,Brandt Snedeker,United States,2.1349,93.936,44,-167.38,77.705,44
+60,Adam Hadwin,Canada,2.1234,110.415,52,-74.231,137.554,54
+61,Cameron Smith,Australia,2.1079,109.612,52,-52.913,96.836,54
+62,Shane Lowry,Ireland,2.0934,104.668,50,-111.254,92.533,50
+63,Julian Suri,United States,2.0605,82.419,40,-9.639,89.172,31
+64,Lee Westwood,England,2.0058,92.265,46,-106.8,75.221,46
+65,Charles Howell III,United States,1.9677,94.451,48,-82.99,104.047,48
+66,Anirban Lahiri,India,1.9231,100.001,52,-88.565,94.186,55
+67,Wesley Bryan,United States,1.9181,95.904,50,-62.392,109.164,50
+68,Jimmy Walker,United States,1.909,91.633,48,-159.868,44.18,48
+69,Hideto Tanihara,Japan,1.9089,99.263,52,-99.091,78.271,53
+70,Billy Horschel,United States,1.8542,89.004,48,-91.386,84.547,48
+71,Keegan Bradley,United States,1.828,95.057,52,-64.578,88.518,54
+72,Martin Kaymer,Germany,1.8272,91.361,50,-110.111,76.705,50
+73,Emiliano Grillo,Argentina,1.825,94.9,52,-149.465,55.181,56
+74,Alexander Levy,France,1.7928,84.261,47,-65.777,75.84,47
+75,Paul Dunne,Ireland,1.7557,91.294,52,-28.098,93.71,54
+76,Chan Kim,United States,1.7032,71.535,42,-15.459,75.093,42
+77,Russell Knox,Scotland,1.6988,88.339,52,-168.562,38.705,57
+78,Thorbjorn Olesen,Denmark,1.6884,87.799,52,-87.408,69.979,53
+79,Chesson Hadley,United States,1.688,87.775,52,-23.662,90.631,58
+80,Seungsu Han,United States,1.6738,75.322,45,-12.543,74.757,45
+81,Sunghoon Kang,Korea,1.6595,86.295,52,-55.728,97.564,63
+82,Joost Luiten,Netherlands,1.6425,83.769,51,-89.921,60.493,51
+83,James Hahn,United States,1.6233,84.411,52,-90.808,70.441,55
+84,J.B. Holmes,United States,1.6135,79.061,49,-139.473,52.577,49
+85,Shugo Imahira,Japan,1.5987,83.135,52,-41.301,77.812,52
+86,Lucas Glover,United States,1.5895,76.296,48,-48.932,73.68,48
+87,William McGirt,United States,1.5885,82.603,52,-111.917,64.662,55
+88,Chris Wood,England,1.5875,73.025,46,-117.702,57.782,46
+89,Bubba Watson,United States,1.5849,71.32,45,-210.577,48.125,45
+90,Jordan L Smith,England,1.5799,82.153,52,-50.228,80.908,55
+91,Kevin Na,United States,1.5787,82.092,52,-123.92,70.794,52
+92,Victor Dubuisson,France,1.5774,63.096,40,-60.515,52.287,36
+93,Hudson Swafford,United States,1.5114,78.591,52,-58.009,95.864,56
+94,Jamie Lovemark,United States,1.511,78.574,52,-74.769,77.915,56
+95,Chez Reavie,United States,1.4987,77.93,52,-59.209,76.562,55
+96,Sean O'Hair,United States,1.4975,76.373,51,-78.627,68.316,51
+97,Byeong Hun An,Korea,1.4834,77.136,52,-127.6,70.031,53
+98,Younghan Song,Korea,1.4815,77.04,52,-73.716,61.763,66
+99,Bryson DeChambeau,United States,1.4773,76.818,52,-46.261,72.896,53
+100,Wade Ormsby,Australia,1.4767,62.022,42,-15.592,61.913,42
+101,David Horsey,England,1.4602,70.089,48,-55.472,53.215,48
+102,Fabrizio Zanotti,Paraguay,1.4257,71.287,50,-55.507,78.469,50
+103,Nicolas Colsaerts,Belgium,1.4184,73.757,52,-53.79,57.566,57
+104,Ryuko Tokimatsu,Japan,1.4057,59.04,42,-13.443,53.369,42
+105,Bud Cauley,United States,1.3774,60.606,44,-30.988,68.585,44
+106,Soren Kjeldsen,Denmark,1.3659,71.028,52,-114.749,51.308,52
+107,Scott Brown,United States,1.3595,70.694,52,-51.221,79.999,56
+108,Danny Lee,New Zealand,1.3567,70.547,52,-103.981,70.582,65
+109,Alexander Bjork,Sweden,1.3482,70.108,52,-35.894,66.481,53
+110,Jeunghun Wang,Korea,1.3424,69.807,52,-93.132,54.708,57
+111,Steve Stricker,United States,1.3418,53.671,40,-52.544,44.923,28
+112,Meenwhee Kim,Korea,1.3273,69.02,52,-32.331,66.008,59
+113,Hyunwoo Ryu,Korea,1.3239,68.844,52,-27.476,58.355,58
+114,Danny Willett,England,1.3131,59.09,45,-203.627,13.358,45
+115,Graham Delaet,Canada,1.3079,60.166,46,-46.38,67.3,46
+116,J.J Spaun,United States,1.3062,67.921,52,-43.336,67.994,57
+117,Martin Laird,Scotland,1.3018,63.79,49,-52.264,62.053,49
+118,Grayson Murray,United States,1.301,63.749,49,-33.559,54.489,49
+119,Ollie Schniederjans,United States,1.2999,67.595,52,-44.309,73.613,55
+120,Shingo Katayama,Japan,1.2781,57.514,45,-54.676,41.904,45
+121,Patton Kizzire,United States,1.273,66.195,52,-66.521,50.633,55
+122,Scott Piercy,United States,1.2706,58.448,46,-121.822,19.589,46
+123,Ryan Fox,New Zealand,1.2498,64.99,52,-51.194,52.898,56
+124,Scott Hend,Australia,1.2478,64.886,52,-87.82,47.818,67
+125,Michael Hendry,New Zealand,1.2442,63.455,51,-46.648,56.131,51
+126,K.T. Kim,Korea,1.2389,64.423,52,-101.345,50.074,58
+127,Matt Wallace,England,1.2367,51.941,42,-28.192,48.38,42
+128,David Lingmerth,Sweden,1.2352,64.232,52,-94.508,57.439,57
+129,Andy Sullivan,England,1.2258,63.74,52,-115.784,40.817,53
+130,Mike Lorenzo-Vera,France,1.22,53.679,44,-31.327,56.59,44
+131,Jason Kokrak,United States,1.2168,63.275,52,-68.203,49.065,56
+132,Matthew Southgate,England,1.2152,63.192,52,-32.463,55.375,58
+133,Eddie Pepperell,England,1.2141,55.847,46,-27.539,55.752,46
+134,Richie Ramsay,Scotland,1.2097,61.694,51,-36.128,61.613,51
+135,George Coetzee,South Africa,1.2084,62.838,52,-55.426,61.571,61
+136,Graeme Storm,England,1.2026,62.533,52,-44.006,69.485,56
+137,Dean Burmester,South Africa,1.1973,62.262,52,-56.1,73.483,54
+138,Luke List,United States,1.1952,62.15,52,-42.54,59.678,61
+139,Richard Sterne,South Africa,1.1902,54.747,46,-42.865,25.95,46
+140,Luke Donald,England,1.1708,56.198,48,-79.941,46.868,48
+141,Erik van Rooyen,South Africa,1.1674,53.702,46,-14.607,59.068,46
+142,Harold Varner III,United States,1.1661,60.639,52,-52.675,42.797,62
+143,Scott Jamieson,Scotland,1.1638,60.519,52,-21.5,57.805,55
+144,Austin Cook,United States,1.1624,60.445,52,-17.591,60.406,52
+145,Mackenzie Hughes,Canada,1.1411,59.339,52,-40.986,43.184,57
+146,Stewart Cink,United States,1.1403,53.592,47,-35.812,57.032,47
+147,Matthieu Pavon,France,1.1024,57.323,52,-26.304,51.278,52
+148,Daisuke Kataoka,Japan,1.0988,57.138,52,-50.146,39.047,57
+149,Sungjae Im,Korea,1.0917,55.677,51,-15.421,58.063,51
+150,Padraig Harrington,Ireland,1.0855,54.275,50,-51.207,36.354,50
+151,Pablo Larrazabal,Spain,1.0813,56.225,52,-56.474,56.534,52
+152,Robert Streb,United States,1.0737,55.832,52,-73.665,53.51,56
+153,Gaganjeet Bhullar,India,1.0734,45.083,42,-28.195,31.066,42
+154,Callum Shinkwin,England,1.0729,47.208,44,-26.576,45.646,44
+155,Adrian Otaegui,Spain,1.0724,55.767,52,-25.797,49.113,57
+156,David Lipsky,United States,1.0722,55.753,52,-50.319,48.498,59
+157,Sanghyun Park,Korea,1.0662,55.444,52,-45.963,38.063,53
+158,Aaron Rai,England,1.0567,51.776,49,-22.81,54.667,49
+159,Phachara Khongwatmai,Thailand,1.0543,52.717,50,-36.327,55.887,50
+160,Shaun Norris,South Africa,1.0531,54.761,52,-32.683,55.593,63
+161,Kevin Streelman,United States,1.0443,53.259,51,-58.817,43.23,51
+162,Brad Kennedy,Australia,1.0435,50.087,48,-45.003,41.019,48
+163,Jazz Janewattananond,Thailand,1.0384,45.691,44,-24.269,50.057,44
+164,Sanghee Lee,Korea,1.0326,53.693,52,-19.606,53.235,57
+165,Daniel Summerhays,United States,1.0222,53.157,52,-82.716,37.078,60
+166,Renato Paratore,Italy,1.0169,52.879,52,-33.421,51.55,60
+167,Tapio Pulkkanen,Finland,1.0151,41.62,41,-8.69,46.675,41
+168,Jason Scrivener,Australia,1.0037,51.187,51,-33.473,46.193,51
+169,Junggon Hwang,Korea,1.0011,52.058,52,-45.254,45.256,54
+170,Poom Saksansin,Thailand,0.9981,44.916,45,-21.523,38.6,45
+171,Patrick Rodgers,United States,0.9941,51.695,52,-54.23,47.279,55
+172,Andrew Landry,United States,0.9915,47.594,48,-19.491,52.894,48
+173,Andrew Dodt,Australia,0.9914,48.578,49,-27.672,37.873,49
+174,Jim Herman,United States,0.9914,51.555,52,-77.557,48.487,52
+175,Haydn Porteous,South Africa,0.988,51.374,52,-30.265,51.946,64
+176,Prayad Marksaeng,Thailand,0.9872,43.439,44,-44.645,53.204,44
+177,C.T. Pan,Chinese Taipei,0.9844,51.188,52,-41.093,54.453,56
+178,Gavin Green,Malaysia,0.9803,50.973,52,-25.285,53.023,52
+179,Ryan Armour,United States,0.9772,49.835,51,-18.194,48.976,51
+180,Brandon Stone,South Africa,0.9747,50.685,52,-77.849,28.993,53
+181,Andrew Johnston,England,0.969,45.542,47,-64.653,24.065,47
+182,Nacho Elvira,Spain,0.9633,50.09,52,-47.304,40.227,57
+183,Jim Furyk,United States,0.956,38.242,40,-96.421,15.796,32
+184,Clement Sordet,France,0.9553,46.809,49,-26.57,43.57,49
+185,Graeme McDowell,N Ireland,0.9517,49.49,52,-78.316,39.65,55
+186,Julien Guerrier,France,0.9509,47.547,50,-16.409,46.603,50
+187,Chris Kirk,United States,0.9345,48.596,52,-78.473,27.814,57
+188,Lucas Bjerregaard,Denmark,0.9305,48.388,52,-44.499,45.699,56
+189,Chris Stroud,United States,0.9244,48.07,52,-36.146,47.912,54
+190,Morgan Hoffmann,United States,0.9156,47.609,52,-38.877,57.341,54
+191,Kevin Tway,United States,0.9135,47.502,52,-25.007,50.247,55
+192,Thongchai Jaidee,Thailand,0.9128,47.465,52,-108.193,23.109,55
+193,Ryan Palmer,United States,0.9084,36.336,40,-68.972,20.207,40
+194,Darren Fichardt,South Africa,0.9057,41.663,46,-32.093,42.79,46
+195,Alex Cejka,Germany,0.9034,46.975,52,-47.751,39.173,55
+196,Paul Peterson,United States,0.9026,46.936,52,-28.789,39.225,55
+197,Adam Bland,Australia,0.9024,44.22,49,-24.057,50.687,49
+198,Brian Gay,United States,0.9021,42.4,47,-12.904,48.227,47
+199,Nick Taylor,Canada,0.898,46.696,52,-27.559,51.166,56
+200,Jinho Choi,Korea,0.8967,35.866,40,-24.387,32.382,38
+201,Shiv Kapur,India,0.8856,38.967,44,-15.571,44.303,44
+202,Shubhankar Sharma,India,0.8854,35.417,40,-15.127,37.474,38
+203,Marc Warren,Scotland,0.883,45.915,52,-34.607,37.899,55
+204,Ajeetesh Sandhu,India,0.8829,35.317,40,-0.548,35.865,12
+205,Thomas Detry,Belgium,0.8828,40.609,46,-24.69,28.706,46
+206,Kyungnam Kang,Korea,0.876,42.046,48,-16.284,41.521,48
+207,Andres Romero,Argentina,0.8724,36.639,42,-17.471,40.148,42
+208,Brice Garnett,United States,0.8524,41.769,49,-14.492,45.318,49
+209,Austin Connelly,Canada,0.8512,34.047,40,-7.213,35.89,40
+210,Kelly Kraft,United States,0.8505,44.227,52,-31.47,54.141,52
+211,Jorge Campillo,Spain,0.8446,43.919,52,-47.818,35.536,56
+212,Talor Gooch,United States,0.8419,34.518,41,-9.94,37.687,41
+213,S.S.P. Chawrasia,India,0.8353,43.435,52,-36.386,40.715,54
+214,Aaron Baddeley,Australia,0.83,41.499,50,-50.493,28.323,50
+215,Cameron Davis,Australia,0.8283,33.132,40,-1.132,32,18
+216,Jaco Van Zyl,South Africa,0.8242,32.966,40,-69.899,30.432,40
+217,Ted Potter-jr,United States,0.8216,36.97,45,-11.362,41.32,45
+218,Katsumasa Miyamoto,Japan,0.8213,42.708,52,-32.147,36.946,52
+219,Richard Bland,England,0.8179,41.714,51,-52.671,22.598,51
+220,Brian Stuard,United States,0.8127,42.26,52,-47.172,34.143,55
+221,Joakim Lagergren,Sweden,0.8098,39.68,49,-39.337,31.66,49
+222,Gregory Bourdy,France,0.8063,41.926,52,-53.243,28.644,57
+223,Aaron Wise,United States,0.8027,32.107,40,-13.664,31.972,36
+224,Bradley Dredge,Wales,0.8,36.001,45,-54.418,20.732,45
+225,Roberto Castro,United States,0.7977,39.089,49,-69.445,12.351,49
+226,Ryo Ishikawa,Japan,0.7943,31.772,40,-54.751,15.665,40
+227,Robert Rock,England,0.7937,40.481,51,-29.639,34.336,51
+228,Anthony Wall,England,0.7882,33.891,43,-43.254,26.27,43
+229,Billy Hurley III,United States,0.7837,40.75,52,-49.053,27.283,52
+230,Yuki Inamori,Japan,0.7835,39.174,50,-23.921,32.753,50
+231,Rikard Karlberg,Sweden,0.7773,33.423,43,-60.923,16.464,43
+232,Romain Wattel,France,0.7757,40.335,52,-31.561,33.037,55
+233,Smylie Kaufman,United States,0.7701,40.047,52,-69.276,35.637,54
+234,Robert Garrigus,United States,0.7697,36.176,47,-33.402,29.959,47
+235,Lee Slattery,England,0.7661,39.836,52,-40.917,38.549,55
+236,Oscar Lengden,Sweden,0.7657,34.456,45,-11.662,32.48,45
+237,Paul Waring,England,0.7643,30.573,40,-11.202,33.665,32
+238,James Morrison,England,0.7611,39.577,52,-54.499,37.28,56
+239,Benjamin Silverman,Canada,0.7607,34.234,45,-4.614,36.451,45
+240,Rob Oppenheim,United States,0.7599,39.514,52,-21.18,41.451,56
+241,Tadahiro Takayama,Japan,0.7577,36.369,48,-22.872,27.461,48
+242,Panuphol Pittayarat,Thailand,0.7537,33.163,44,-17.724,33.407,44
+243,Benjamin Hebert,France,0.7406,37.77,51,-39.5,30.569,51
+244,Marcus Fraser,Australia,0.7397,36.246,49,-56.96,25.142,49
+245,Chad Campbell,United States,0.7396,38.46,52,-45.119,38.782,57
+246,Mikko Korhonen,Finland,0.7392,33.266,45,-28.148,33.849,45
+247,Koumei Oda,Japan,0.7342,38.178,52,-34.766,26.658,52
+248,Rod Pampling,Australia,0.7331,35.189,48,-40.68,13.852,48
+249,Pedro Oriol,Spain,0.733,29.321,40,-9.136,30.137,40
+250,Jonathan Randolph,United States,0.7287,37.893,52,-19.812,34.742,52
+251,Dominic Bozzelli,United States,0.7245,29.705,41,-26.921,33.568,41
+252,Ryan Evans,England,0.7241,36.929,51,-18.326,37.346,51
+253,Ben Martin,United States,0.723,37.597,52,-47.676,31.218,56
+254,Seunghyuk Kim,Korea,0.7214,37.515,52,-13.954,36.647,55
+255,Nicolai Von Dellingshausen,Germany,0.7198,28.793,40,-4.685,33.477,27
+256,Jbe' Kruger,South Africa,0.7186,37.366,52,-28.956,36.247,65
+257,Harris English,United States,0.7176,37.317,52,-81.075,19.735,54
+258,Sam Ryder,United States,0.715,35.75,50,-19.391,36.664,50
+259,Sam Brazel,Australia,0.7072,31.118,44,-29.81,14.597,44
+260,Sam Saunders(July1987),United States,0.7052,36.672,52,-26.065,39.905,53
+261,Hyungjoon Lee,Korea,0.7044,28.176,40,-15.109,24.525,33
+262,Matt Jones,Australia,0.7028,36.544,52,-59.167,33.909,56
+263,Adrien Saddier,France,0.6976,33.485,48,-18.987,29.054,48
+264,Yoshinori Fujimoto,Japan,0.6917,34.586,50,-52.219,28.248,50
+265,David Drysdale,Scotland,0.6906,35.912,52,-25.891,34.469,60
+266,Stephan Jaeger,Germany,0.6905,34.523,50,-16.463,35.824,50
+267,Abraham Ancer,Mexico,0.6888,35.82,52,-14.793,40.577,52
+268,Micah Lauren Shin,United States,0.6869,27.477,40,-4.944,25.291,24
+269,Stephen Gallacher,Scotland,0.6867,31.589,46,-21.624,29.65,46
+270,Oliver Bekker,South Africa,0.6859,35.665,52,-18.515,37.506,52
+271,Richy Werenski,United States,0.6856,35.651,52,-29.935,32.511,53
+272,Vaughn Taylor,United States,0.6848,35.608,52,-52.544,30.504,54
+273,Bernd Ritthammer,Germany,0.683,34.15,50,-39.494,11.914,50
+274,Marcus Kinhult,Sweden,0.68,34.679,51,-8.854,34.085,51
+275,Seungyul Noh,Korea,0.679,35.31,52,-32.103,40.605,56
+276,Kramer Hickok,United States,0.6766,27.065,40,-2.164,29.229,25
+277,Robert Karlsson,Sweden,0.6758,31.762,47,-20.916,25.437,47
+278,Lucas Herbert,Australia,0.6752,27.007,40,-6.023,25.41,25
+279,Jamie Donaldson,Wales,0.6731,33.656,50,-57.178,31.1,50
+280,Nate Lashley,United States,0.6709,34.889,52,-23.684,28.337,53
+281,Jonas Blixt,Sweden,0.6688,34.106,51,-39.212,32.912,51
+282,Jonathan Byrd,United States,0.6646,34.557,52,-14.919,34.248,54
+283,Oliver Farr,Wales,0.6621,32.444,49,-9.315,29.434,49
+284,Yikeun Chang,Korea,0.6606,26.424,40,-10.683,29.81,40
+285,JT Poston,United States,0.6596,34.299,52,-21.405,33.258,53
+286,Martin Flores,United States,0.658,34.217,52,-32.476,27.871,53
+287,Zhang Xin-jun,China,0.6555,29.498,45,-21.615,25.677,45
+288,Alejandro Canizares,Spain,0.6548,30.776,47,-43.661,14.634,47
+289,Chris Paisley,England,0.654,34.008,52,-27.136,27.995,57
+290,Marcel Siem,Germany,0.6526,33.934,52,-22.059,32.47,52
+291,Scott Stallings,United States,0.6516,33.885,52,-26.032,36.632,56
+292,D.A. Points,United States,0.6509,29.942,46,-18.073,36.395,46
+293,Thomas Aiken,South Africa,0.6503,33.817,52,-45.511,31.094,57
+294,Brendan Jones,Australia,0.6428,29.569,46,-20.665,20.995,46
+295,Rattanon Wannasrichan,Thailand,0.6405,30.744,48,-17.277,31.37,48
+296,Peter Hanson,Sweden,0.6389,25.557,40,-31.017,23.168,40
+297,Nino Bertasio,Italy,0.6387,33.212,52,-19.787,30.757,56
+298,Martin Piller,United States,0.638,31.264,49,-26.048,29.19,49
+299,David Hearn,Canada,0.6328,32.904,52,-49.97,26.912,60
+300,Jens Dantorp,Sweden,0.631,32.811,52,-16.599,25.724,55

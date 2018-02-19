@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>This week:</strong>
+  <%= @ranking2016.this_week %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @ranking2016.name %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @ranking2016.country %>
+</p>
+
+<p>
+  <strong>Average points:</strong>
+  <%= @ranking2016.average_points %>
+</p>
+
+<p>
+  <strong>Total points:</strong>
+  <%= @ranking2016.total_points %>
+</p>
+
+<p>
+  <strong>Events played:</strong>
+  <%= @ranking2016.events_played %>
+</p>
+
+<p>
+  <strong>Points lost this year:</strong>
+  <%= @ranking2016.points_lost_this_year %>
+</p>
+
+<p>
+  <strong>Points gained this year:</strong>
+  <%= @ranking2016.points_gained_this_year %>
+</p>
+
+<p>
+  <strong>Events played:</strong>
+  <%= @ranking2016.events_played %>
+</p>
+
+<%= link_to 'Edit', edit_ranking2016_path(@ranking2016) %> |
+<%= link_to 'Back', ranking2016s_path %>

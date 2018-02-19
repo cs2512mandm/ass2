@@ -1,0 +1,2 @@
+module Ranking2017sHelper
+end

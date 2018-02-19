@@ -1,0 +1,62 @@
+<%= form_with(model: ranking2016, local: true) do |form| %>
+  <% if ranking2016.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(ranking2016.errors.count, "error") %> prohibited this ranking2016 from being saved:</h2>
+
+      <ul>
+      <% ranking2016.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :this_week %>
+    <%= form.number_field :this_week, id: :ranking2016_this_week %>
+  </div>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :ranking2016_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :country %>
+    <%= form.text_field :country, id: :ranking2016_country %>
+  </div>
+
+  <div class="field">
+    <%= form.label :average_points %>
+    <%= form.text_field :average_points, id: :ranking2016_average_points %>
+  </div>
+
+  <div class="field">
+    <%= form.label :total_points %>
+    <%= form.text_field :total_points, id: :ranking2016_total_points %>
+  </div>
+
+  <div class="field">
+    <%= form.label :events_played %>
+    <%= form.text_field :events_played, id: :ranking2016_events_played %>
+  </div>
+
+  <div class="field">
+    <%= form.label :points_lost_this_year %>
+    <%= form.text_field :points_lost_this_year, id: :ranking2016_points_lost_this_year %>
+  </div>
+
+  <div class="field">
+    <%= form.label :points_gained_this_year %>
+    <%= form.text_field :points_gained_this_year, id: :ranking2016_points_gained_this_year %>
+  </div>
+
+  <div class="field">
+    <%= form.label :events_played %>
+    <%= form.text_field :events_played, id: :ranking2016_events_played %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
