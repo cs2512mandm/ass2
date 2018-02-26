@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'query/run'
+
+  get 'query/results'
+
   resources :ranking2016s
   resources :ranking2017s
   resources :golfers
