@@ -5,6 +5,8 @@ class GolfersController < ApplicationController
   # GET /golfers.json
   def index
     @golfers = Golfer.all
+    @ranking2016s = Ranking2016.all
+    @ranking2017s = Ranking2017.all
   end
 
   # GET /golfers/1

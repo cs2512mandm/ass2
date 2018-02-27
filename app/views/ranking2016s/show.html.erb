@@ -1,7 +1,7 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>This week:</strong>
+  <strong>Rank:</strong>
   <%= @ranking2016.this_week %>
 </p>
 
@@ -17,7 +17,17 @@
 
 <p>
   <strong>Average points:</strong>
-  <%= @ranking2016.average_points %>
+  <% @golfers = Golfer.all %>
+  <% @buffer2018 = @golfers.find_by_name(@ranking2016.name) %> 
+  <% @ranking2017s = Ranking2017.all %>
+  <% @buffer2017 = @ranking2017s.find_by_name(@ranking2016.name) %> 
+  <p>2016: <%= @ranking2016.average_points %> </p>
+  <% if @buffer2017 != nil %>
+    <p>2017: <%= @buffer2017.average_points %></p>
+  <% end%>
+  <% if @buffer2018 != nil %>
+    <p>2018: <%= @buffer2018.average_points %> </p>
+  <% end%>
 </p>
 
 <p>
