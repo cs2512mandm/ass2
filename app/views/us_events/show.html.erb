@@ -1,0 +1,36 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @us_event.name %>
+</p>
+
+<p>
+  <strong>Start date:</strong>
+  <%= @us_event.start_date %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @us_event.address %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @us_event.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @us_event.longitude %>
+</p>
+
+<%= link_to 'Edit', edit_us_event_path(@us_event) %> |
+<%= link_to 'Back', us_events_path %>
+
+<!-- <%= image_tag "http://maps.google.com/maps/api/staticmap?size=450x360&sensor=false&zoom=16&markers=#{@us_event.latitude}%2C#{@us_event.longitude}" %> -->
+
+<iframe width="450" height="360" frameborder="0" style="border:0"
+ src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCxFJt2Ir5H8I_FYWe9cbZdqqCseugPQ3g&q=<%= @us_event.latitude %>,<%= @us_event.longitude %>"
+ allowfullscreen>
+</iframe>

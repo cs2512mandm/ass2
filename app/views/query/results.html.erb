@@ -1,2 +1,33 @@
-<h1>Query#results</h1>
-<p>Find me in app/views/query/results.html.erb</p>
+<h1>Query Results</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Rank</th>
+      <th>Name</th>
+      <th>Country</th>
+      <th>Average points</th>
+      <th>Total points</th>
+      <th>Points lost this year</th>
+      <th>Points gained this year</th>
+      <th>Events played</th>
+      <th colspan="2"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @finalrecords.each do |golfer| %>
+          <tr>
+            <td><%= golfer.this_week %></td>
+            <td><%= golfer.name %></td>
+            <td><%= golfer.country %></td>
+            <td><%= golfer.average_points %></td>
+            <td><%= golfer.total_points %></td>
+            <td><%= golfer.points_lost_this_year %></td>
+            <td><%= golfer.points_gained_this_year %></td>
+            <td><%= golfer.events_played %></td>
+            <td><%= link_to 'Show', golfer %></td>
+          </tr>
+    <% end %>
+  </tbody>
+</table>

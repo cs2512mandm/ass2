@@ -1,0 +1,24 @@
+<h1>See which Event Comes Next</h1>
+<h2>On the PGA Tour</h2>
+
+    <h3><%= @nexteventbuffer.name %></h3>
+    <%= @nexteventbuffer.start_date %>
+    <%= @nexteventbuffer.address %>
+    
+    <iframe width="450" height="360" frameborder="0" style="border:0"
+     src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCxFJt2Ir5H8I_FYWe9cbZdqqCseugPQ3g&q=<%= @nexteventbuffer.latitude %>,<%= @nexteventbuffer.longitude %>"
+     allowfullscreen>
+    </iframe>
+    
+    
+    <form name="pgaNextBtn" action="/nextevents/nextPGA" method="get">
+        <% if @nexteventbuffer.id > 1 %>
+            <input type='submit' value='previous event' name="backfield">
+        <% end %>
+
+        <% if @nexteventbuffer.id < UsEvent.count%>
+            <input type='submit' value="next event" name="nextfield">
+        <% end %>
+        <input type='hidden' value="<%= @nexteventbuffer.id %>" name="doesthishelp">
+        
+    </form> 
