@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :us_events
+  get 'nextevents/index'
+  get 'nextevents/nextPGA'
+  get 'nextevents/previousPGA'
   get 'query/run'
 
   get 'query/results'

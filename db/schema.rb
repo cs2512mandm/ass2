@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180219141724) do
+ActiveRecord::Schema.define(version: 20180226122927) do
 
   create_table "golfers", force: :cascade do |t|
     t.integer "this_week"
@@ -21,6 +21,16 @@ ActiveRecord::Schema.define(version: 20180219141724) do
     t.string "events_played"
     t.string "points_lost_this_year"
     t.string "points_gained_this_year"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "pga_events", force: :cascade do |t|
+    t.string "name"
+    t.date "start_date"
+    t.string "address"
+    t.float "latitude"
+    t.float "longitude"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -47,6 +57,16 @@ ActiveRecord::Schema.define(version: 20180219141724) do
     t.string "events_played"
     t.string "points_lost_this_year"
     t.string "points_gained_this_year"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "us_events", force: :cascade do |t|
+    t.string "name"
+    t.date "start_date"
+    t.string "address"
+    t.float "latitude"
+    t.float "longitude"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

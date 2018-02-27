@@ -1,2 +1,31 @@
-<h1>Query#run</h1>
-<p>Find me in app/views/query/run.html.erb</p>
+<h1>Queries</h1>
+
+<%= form_tag( "/query/results", method: "get") do %>
+<%= label_tag "some variable in here" %>
+<input type="number" name="idmaybe">
+<select name="year_sel">
+  <option value="ranking2016s">2016</option>
+  <option value="ranking2017s">2017</option>
+  <option value="golfers">2018</option>
+  <option value="golfers, ranking2016s, ranking2017s">All</option>
+</select> 
+
+<select name="where_sel">
+  <option value="this_week">Rank</option>
+  <option value="name">Name</option>
+  <option value="country">Country</option>
+  <option value="average_points">Average Score</option>
+</select> 
+
+<select name="sql_star_sel">
+  <option value="*">Whole row</option>
+  <option value="name">name</option>
+  <option value="average_points">average points</option>
+  <option value="events_played">events played</option>
+</select> 
+
+Search by name
+<input type="text" name="name_sel">
+<%= submit_tag("something") %>
+
+<% end %>
