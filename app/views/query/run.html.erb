@@ -1,31 +1,20 @@
-<h1>Queries</h1>
+<h2>Find a player by name</h2>
 
-<%= form_tag( "/query/results", method: "get") do %>
-<%= label_tag "some variable in here" %>
-<input type="number" name="idmaybe">
-<select name="year_sel">
-  <option value="ranking2016s">2016</option>
-  <option value="ranking2017s">2017</option>
-  <option value="golfers">2018</option>
-  <option value="golfers, ranking2016s, ranking2017s">All</option>
-</select> 
+<form action="/query/results">
+  
+  <input type="number" name="idmaybe">
+  <input type="submit" name="rank_submit">
+  
+  <br>
+  <br>
+  
+  <h2>Find a player by name</h2>
+  
+  <input type="text" name="name_sel">
+  <input type="submit" name="name_submit">
 
-<select name="where_sel">
-  <option value="this_week">Rank</option>
-  <option value="name">Name</option>
-  <option value="country">Country</option>
-  <option value="average_points">Average Score</option>
-</select> 
+</form>
 
-<select name="sql_star_sel">
-  <option value="*">Whole row</option>
-  <option value="name">name</option>
-  <option value="average_points">average points</option>
-  <option value="events_played">events played</option>
-</select> 
-
-Search by name
-<input type="text" name="name_sel">
-<%= submit_tag("something") %>
-
+<% if @messageyo != nil %>
+  <h1><%= @messageyo %> </h1>
 <% end %>

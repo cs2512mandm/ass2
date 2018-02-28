@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'nextevents/nextPGA'
   get 'nextevents/previousPGA'
   get 'query/run'
+  
 
   get 'query/results'
 
