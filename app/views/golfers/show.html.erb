@@ -17,10 +17,8 @@
 
 <p>
   <strong>Average points:</strong>
-  <% @ranking2016s = Ranking2016.all %>
-  <% @buffer2016 = @ranking2016s.find_by_name(@golfer.name) %> 
-  <% @ranking2017s = Ranking2017.all %>
-  <% @buffer2017 = @ranking2017s.find_by_name(@golfer.name) %> 
+  <% @buffer2016 = Ranking2016.all.find_by_name(@golfer.name) %> 
+  <% @buffer2017 = Ranking2017.all.find_by_name(@golfer.name) %> 
   <% if @buffer2016 != nil %>
     <p>2016: <%= @buffer2016.average_points %> </p>
   <% end%>
@@ -54,6 +52,46 @@
   <strong>Events played:</strong>
   <%= @golfer.events_played %>
 </p>
+
+ <div id="container" style="width:100%; height:400px;"></div>
+
+<script type="text/javascript">
+$(function () { 
+    var myChart = Highcharts.chart('container', {
+        chart: {
+            type: 'line'
+        },
+        title: {
+            text: 'Average Points over the years'
+        },
+        xAxis: {
+            categories: ['2016', '2017', '2018']
+        },
+        yAxis: {
+            title: {
+                text: 'Points'
+            }
+        },
+        series: [{
+            name: '<%= @golfer.name %>',
+            <% 
+              if @buffer2016 == nil
+                @backup2016 = 0
+              else 
+                @backup2016 = @buffer2016.average_points
+              end
+              if @buffer2017 == nil
+                @backup2017 = 0
+              else 
+                @backup2017 = @buffer2017.average_points
+              end
+            %>
+            data: [<%= @backup2016 %>, <%= @backup2017 %>, <%= @golfer.average_points %>]
+        }]
+        
+    });
+});
+</script>
 
 <%= link_to 'Edit', edit_golfer_path(@golfer) %> |
 <%= link_to 'Back', golfers_path %>

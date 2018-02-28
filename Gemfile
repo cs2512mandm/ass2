@@ -12,6 +12,8 @@ gem 'rails', '~> 5.1.4'
 gem 'bootstrap-sass', '3.3.7'
 gem 'geocoder'
 gem 'sqlite3'
+# Use jquery as the JavaScript library
+gem 'jquery-rails'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
