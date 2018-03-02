@@ -25,16 +25,6 @@ ActiveRecord::Schema.define(version: 20180226122927) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "pga_events", force: :cascade do |t|
-    t.string "name"
-    t.date "start_date"
-    t.string "address"
-    t.float "latitude"
-    t.float "longitude"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "ranking2016s", force: :cascade do |t|
     t.integer "this_week"
     t.string "name"
