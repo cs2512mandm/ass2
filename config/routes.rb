@@ -3,7 +3,8 @@ Rails.application.routes.draw do
   get 'nextevents/index'
   get 'nextevents/nextPGA'
   get 'query/run'
-  
+  get 'home/home'
+  root 'home#home'
 
   get 'query/results'
 
