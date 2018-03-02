@@ -2,6 +2,7 @@ class NexteventsController < ApplicationController
   def index
     @us_events = UsEvent.all
     @shownevent = @us_events[0]
+    render JSON:UsEvent
     
   end
   

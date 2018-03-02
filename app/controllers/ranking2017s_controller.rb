@@ -5,6 +5,7 @@ class Ranking2017sController < ApplicationController
   # GET /ranking2017s.json
   def index
     @ranking2017s = Ranking2017.all
+    render JSON:Ranking2017
   end
 
   # GET /ranking2017s/1

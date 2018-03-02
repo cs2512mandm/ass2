@@ -6,16 +6,28 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxFJt2Ir5H8I_FYWe9cbZdqqCseugPQ3g" async defer></script>
 
-<header class="navbar navbar-fixed-top navbar-inverse">
+<header class="topnav" id="myTopnav">
   <div class="container">
     <%= link_to "Website for Golf Rankings", root_path, id: "logo" %>
     <a class="brand" style="margin: 0; float: none;" href="#">Website for Golf Stuff</a>
     <nav>
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Home",   '#' %></li>
-        <li><%= link_to "Help",   '#' %></li>
-        <li><%= link_to "Log in", '#' %></li>
+        <li> <%= link_to "2018 Rankings", "golfers#index" %> </li>
+        <li> <%= link_to "2017 Rankings", "ranking2017s#index" %> </li>
+        <li> <%= link_to "2016 Rankings", "ranking2016s#index" %> </li>
+        <li> <%= link_to "Queries", "query/run" %> </li>
       </ul>
     </nav>
   </div>
 </header>
+
+<script type="text/javascript">
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>

@@ -5,6 +5,7 @@ class GolfersController < ApplicationController
   # GET /golfers.json
   def index
     @golfers = Golfer.all
+    render JSON:Golfer
   end
 
   # GET /golfers/1
@@ -15,6 +16,7 @@ class GolfersController < ApplicationController
   # GET /golfers/new
   def new
     @golfer = Golfer.new
+    render JSON:Golfer
   end
 
   # GET /golfers/1/edit
