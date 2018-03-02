@@ -7,11 +7,12 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxFJt2Ir5H8I_FYWe9cbZdqqCseugPQ3g" async defer></script>
 
 <div class="topnav" id="myTopnav">
-  <%= link_to "Home", "home#home" %>
-  <%= link_to "2018 Rankings", "golfers#index" %>
-  <%= link_to "2017 Rankings", "ranking2017s#index" %>
-  <%= link_to "2016 Rankings", "ranking2016s#index" %>
-  <%= link_to "Queries", "query/run" %>
+  <%= link_to "Home", home_path %>
+  <%= link_to "2018 Rankings", golfers_path %>
+  <%= link_to "2017 Rankings", ranking2017s_path %>
+  <%= link_to "2016 Rankings", ranking2016s_path %>
+  <%= link_to "Queries", queries_path %>
+  <%= link_to "Next Events", nextevents_path %>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
   <!-- us events and next events -->
 </div>

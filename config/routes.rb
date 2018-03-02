@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   resources :us_events
-  get 'nextevents/index'
-  get 'nextevents/nextPGA'
-  get 'query/run'
-  get 'home/home'
+  get 'nextevents', to: 'nextevents#index' 
+  get 'nextevents/nextPGA', to: 'nextevents#nextPGA' 
+  get 'queries', to: 'query#run'
+  get '/home', to: 'home#home'
   root 'home#home'
 
   get 'query/results'

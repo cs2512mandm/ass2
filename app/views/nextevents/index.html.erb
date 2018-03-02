@@ -2,8 +2,7 @@
 <h2>On the PGA Tour</h2>
 
     <h3><%= @shownevent.name %></h3>
-    <%= @shownevent.start_date %>
-    <%= @shownevent.address %>
+    
     
     
     <iframe width="450" height="360" frameborder="0" style="border:0"
@@ -22,3 +21,6 @@
         <input type='hidden' value="<%= @shownevent.id %>" name="doesthishelp">
         
     </form> 
+    
+    <p>start date: <%= @shownevent.start_date %></p>
+    <p>address: <%= @shownevent.address %></p>
